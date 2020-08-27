@@ -150,7 +150,7 @@ export default function Home() {
         <title>Fundacja The Voice of Hope</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <topBar>
+      <topbar>
         <AppBar position="static" className={classes.appBar}>
 
           <Typography variant="h2" className={classes.appBarText} style={{ paddingLeft: '72px' }}>
@@ -191,7 +191,7 @@ export default function Home() {
             </Popper>
           </Toolbar>
         </AppBar>
-      </topBar>
+      </topbar>
       <Drawer anchor={'left'} open={drawer['left']} onClose={toggleDrawer('left', false)}>
         {list('left')}
       </Drawer>
@@ -222,7 +222,7 @@ export default function Home() {
           justify-content: center;
           align-items: center;
         }
-        topBar{
+        topbar{
           width: 100%;
         }
 

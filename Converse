@@ -1,0 +1,15 @@
+{
+  "Data": {
+    "UserId": 3936,
+    "AccountId": 195,
+    "Login": "rdo66161@bcaoo.com",
+    "Permissions": [
+      {
+        "Name": "Logout",
+        "Number": 1
+      }
+    ]
+  },
+  "Status": 1,
+  "StatusMessage": "Ok"
+}
