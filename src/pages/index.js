@@ -25,15 +25,16 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <header style={{ position:'fixed', top: 0}}>
+      <header style={{ position: 'fixed', top: 0 }}>
         <h1>Fundacja</h1>
         <p>The Voice of Hope</p>
       </header>
-      <main style={{marginTop: '100px'}}>
+      <main style={{ marginTop: '100px' }}>
         <h2> Welcome to Fundacja “The Voice Of Hope”</h2>
         <h3> “Together we can give hope to the voiceless people in our society”</h3>
-        <p> “Blessed is the one who considers the poor! In the day of trouble, the LORD delivers him/her…” Psalms 41:1</p>
-
+        <img src="Stadion_Miejski_Legii_Warszawa.jpg" alt="Girl in a jacket"></img>
+        <p>
+          “Blessed is the one who considers the poor! In the day of trouble, the LORD delivers him/her…” Psalms 41:1</p>
         <p>
 
 
@@ -54,7 +55,7 @@ export default function Home() {
 
             </p>
           </column>
-          <column style={{ flex: '50%', paddingRight: '10px', paddingLeft: '15px'}}>
+          <column style={{ flex: '50%', paddingRight: '10px', paddingLeft: '15px' }}>
             <h3>What does Fundacja “The Voice of Hope” do?</h3>
             <p>
               The Fundacja “The Voice of Hope” also caters for Church planting as well as missionaries in difficult situations, for single
@@ -116,10 +117,17 @@ export default function Home() {
           width: 100%;
           max-width: 1300px;
           display: flex;
-          padding 20px;
           z-index: 1;
           flex-direction: column;
           box-shadow: 0px -1px 50px black;
+          overflow: hidden;
+        }
+        main img{
+          width: 100%;
+          height: 300px;
+          object-fit: cover;
+
+          padding: 0;
         }
         main h1,h2,h3,h4,h5 {
           width: 100%;
@@ -128,6 +136,7 @@ export default function Home() {
         }
         main p {
           font-size: 20px;
+          padding: 10px;
         }
         topbar{
           width: 100%;
